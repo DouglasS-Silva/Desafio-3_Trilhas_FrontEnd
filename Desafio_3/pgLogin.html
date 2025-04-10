@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleLogin.css">
+
+    <title>Trilhas Inova - Maranhão</title>
+</head>
+
+<body>
+    <main>
+        <section class="secao-login">
+            <div class="container-login">
+                <div class="container-darkmode">
+                    <button class="is" id="alternar">
+                        <img class="icone-do-botao" src="Icones/moon-branca.svg" alt="lua icone">
+                    </button>
+                </div>
+
+                <div class="grupo-imagens">
+                    <img id="imagem-personagem" src="Ilustracoes/Ilustration.png" alt="">
+                    <img id="imagem-nome" src="Ilustracoes/Logo Trihas Group 2.png" alt="">
+                </div>
+
+                <h1 id="nome-login">Login</h1>
+
+                <div class="login-fields">
+                    <label class="container-login__label" for="idUsuario">Usuário</label>
+                    <input class="container-login__input" type="text" id="idUsuario" placeholder="Informe seu usuário">
+
+                    <label class="container-login__label" for="senhaUsuario">Senha</label>
+                    <div class="password-container">
+                        <input class="container-login__input-senha senha" type="password" id="senhaUsuario" placeholder="Informe sua senha">
+                    
+                        <img src="./Icones/cadeado-icon.svg" alt="Cadeado" class="lock-icon">
+        
+                        <span class="toggle-password">
+                            <img src="./Icones/eye-open.svg" alt="Mostrar senha" class="eye-icon">
+                        </span>
+                    </div>
+
+                    <div class="lembraSenha">
+                        <input type="checkbox" id="lembraSenha">
+                        <label for="lembraSenha">Lembrar Senha</label>
+                    </div>
+                </div>
+
+                <div class="botoes-login">
+                    <button class="efeito-botao" id="botao-login">Entrar</button>
+                    <a href="index.html">
+                        <button class="efeito-botao" id="botao-fazerInscricao">Fazer Inscrição</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="login.js"></script>
+    <script src="dark-mode.js"></script>
+</body>
+</html>

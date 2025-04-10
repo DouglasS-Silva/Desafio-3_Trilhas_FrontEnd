@@ -1,0 +1,332 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --cor-azul-bglogin: #4F64D9;
+
+    --cor-txt: #FFFFFF;
+
+    /* Cores inputs*/
+    --cor-bg-inputs: #FFFFFF;
+    --cor-bordas-inputs: #D6D3D1;
+    --cor-boxShadow-inputs: #FEE7D6;
+}
+
+.dark-mode {
+    --cor-azul-bglogin: #000;
+
+    --cor-txt: #ccc;
+
+    /* Cores inputs (Dark)*/
+    --cor-bg-inputs: #1E1E1E;
+    --cor-bordas-inputs: #333333;
+    --cor-boxShadow-inputs: #424242;
+}
+
+.container-darkmode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.is{
+    width: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+}
+
+.grupo-imagens {
+    display: flex;
+    flex-direction: column;
+    background-color: var( --cor-azul-escuro);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border-bottom: 5px solid var(--cor-azul-shadow);
+}
+
+#imagem-personagem {
+    width: 300px;
+    height: 300px;
+}
+
+#imagem-nome {
+    margin-bottom: 20px;
+    width: 60%;
+    height: 60%;
+}
+
+#nome-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 40px;
+    color: var(--cor-txt);
+    
+}
+
+.secao-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3vw; 
+    background-color: var(--cor-bg-form);
+    min-height: 100vh;
+}
+
+.container-login {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-azul-bglogin);
+    width: 30vw;
+    max-width: 450px;
+    min-width: 320px;
+    padding: 40px;
+    border-radius: 60px;
+    box-shadow: 5px 5px 5px 1px #263238;
+}
+
+.container-login__label {
+    font-size: 14px;
+    color: var(--cor-txt);
+    line-height: 140%;
+}
+
+.container-login__input {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 48px;
+    border: 2px solid var(--cor-bordas-inputs);
+    border-radius: 8px;
+    font-size: 16px;
+    text-indent: 12px;
+    color: var(--cor-txt-principal);
+    background: url(Icones/usuario-icon.svg) no-repeat right 12px center;
+    background-size: 20px 20px;
+    background-color: var(--cor-bg-inputs);
+}
+
+.container-login__input:focus {
+    outline: none;
+    border-color: #F3541C;
+    border-bottom: 5px solid #B43E17;
+    box-shadow: 0px 0px 0px 3px var(--cor-boxShadow-inputs);
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+.container-login__input-senha{
+    margin-bottom: 20px;
+    width: 100%;
+    height: 48px;
+    border: 2px solid var(--cor-bordas-inputs);
+    border-radius: 8px;
+    font-size: 16px;
+    text-indent: 12px;
+    color: var(--cor-txt-principal);
+    background-size: 20px 20px;
+    background-color: var(--cor-bg-inputs);
+}
+
+.container-login__input-senha:focus {
+    outline: none;
+    border-color: #F3541C;
+    border-bottom: 5px solid #B43E17;
+    box-shadow: 0px 0px 0px 3px var(--cor-boxShadow-inputs);
+}
+
+.container-login__input.senha {
+    padding-right: 40px; /* espaço pro ícone */
+    width: 100%;
+}
+
+.lock-icon {
+    position: absolute;
+    right: 12px;
+    width: 20px;
+    height: 20px;
+    top: 15px;
+    transition: opacity 0.2s ease;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 12px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+}
+
+.toggle-password {
+    margin-top: -5px; /* ajuste fino se o olho ficar baixo */
+    margin-right: -5px;
+}
+
+.toggle-password.visible {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.lock-icon.hidden {
+    opacity: 0;
+}
+
+
+.lembraSenha {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--cor-txt);
+}
+
+.botoes-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#botao-login {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #D61A3C;
+    border-radius: 50px;
+    font-size: 25px;
+    color: #FFFFFF;
+    background-color: var(--cor-bg-fazerinscricao);
+    border-bottom: 5px solid #D61A3C;
+}
+
+#botao-fazerInscricao {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #19257E;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: var(--cor-bg-salvaInfo);
+    border-bottom: 5px solid #19257E;
+
+}
+
+.efeito-botao:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 0px 0px 3px #E7E5E4 ;
+    transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+.efeito-botao:active {
+    transform: translateY(2px);
+}
+
+.login-fields {
+    background-color: var(--cor-azul-bglogin);
+}
+
+.erro-login {
+    color: #ff6b6b;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+    animation: fadeInErro 0.3s ease-in-out;
+}
+
+.popup-login {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--cor-branco);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    text-align: center;
+    max-width: 80%;
+    width: 350px;
+    animation: fadeInPopup 0.3s ease-out;
+}
+
+.popup-login h2 {
+    color: var(--cor-azul-escuro);
+    margin-bottom: 15px;
+}
+
+.popup-login p {
+    color: var(--cor-txt-principal);
+    margin-bottom: 20px;
+}
+
+.popup-login button {
+    background-color: var(--cor-azul-escuro);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.popup-login button:hover {
+    background-color: var(--cor-azul-shadow);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+/* Fadein específico para o popup */
+@keyframes fadeInPopup {
+    from { opacity: 0; transform: translate(-50%, -60%); }
+    to { opacity: 1; transform: translate(-50%, -50%); }
+}
+
+/* FadeIn específico para o Erro */
+@keyframes fadeInErro {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 1440px) { 
+    .container-login {
+        width: 50vw;
+        max-width: 400px;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 768px) { 
+    .container-login {
+        width: 80%;
+        max-width: 360px;
+        padding: 20px;
+    }
+
+    .secao-login {
+        padding: 10px;
+    }
+}
