@@ -1,5 +1,5 @@
 # Formulário de  Inscrição - Trilhas Inova 2025
-## Desafio 2
+## Desafio 3
 * A criação de um processo de inscrições por meio de um formulário estático, gerando a documentação que servirá de base para um futuro sistema.
 
 ## **Contexto do Desafio**
