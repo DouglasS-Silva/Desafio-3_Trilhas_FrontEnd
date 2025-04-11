@@ -17,9 +17,13 @@ Para gerenciar possíveis 10.000 inscritos por ano, é necessária uma **ferrame
 Link do figma: https://www.figma.com/design/X2iW0SlSZYY8LLix4TdCLg/Formul%C3%A1rio---Trilhas-2B?node-id=0-1&t=RzCZPR2p34vdx793-1
 
 ### Imagens do Formulário - Light Mode
-![Página de Login](https://github.com/DouglasS-Silva/Desafio-3_Trilhas_FrontEnd/raw/main/Desafio_3/Ilustracoes/Login%20(Light%20Mode).png)
+<div align="center">
+  <img src="https://github.com/DouglasS-Silva/Desafio-3_Trilhas_FrontEnd/raw/main/Desafio_3/Ilustracoes/Login%20(Light%20Mode).png" alt="Página de Login Light">
+  <img src="https://github.com/DouglasS-Silva/Desafio-3_Trilhas_FrontEnd/raw/main/Desafio_3/Ilustracoes/Inscricao%20(Light%20Mode).png" alt="Página Inscrição Light">
+</div>
+![Página de Login]()
 
-![Página de Inscrição](https://github.com/DouglasS-Silva/Desafio-3_Trilhas_FrontEnd/raw/main/Desafio_3/Ilustracoes/Inscricao%20(Light%20Mode).png)
+![Página de Inscrição]()
 
 Link do Site: https://desafio-3-trilhas-front-end.vercel.app/
 <hr>
