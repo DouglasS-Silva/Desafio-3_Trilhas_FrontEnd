@@ -1,4 +1,4 @@
-# Formulário de  Inscrição - Trilhas Inova 2025
+# Formulário de Inscrição - Trilhas Inova 2025
 ## Desafio 3
 * A criação de um processo de inscrições por meio de um formulário estático, gerando a documentação que servirá de base para um futuro sistema.
 
@@ -13,10 +13,13 @@ O Governo do Estado do Maranhão, por meio da SECTI em parceria com a FAPEMA, es
 Para gerenciar possíveis 10.000 inscritos por ano, é necessária uma **ferramenta** robusta e planejada.
 
 ---
-* Produzir uma página estática em HTML e CSS baseado no design do  Figma.<br>
+* Produzir uma página estática em HTML e CSS baseado no design do Figma.<br>
 Link do figma: https://www.figma.com/design/X2iW0SlSZYY8LLix4TdCLg/Formul%C3%A1rio---Trilhas-2B?node-id=0-1&t=RzCZPR2p34vdx793-1
-### Imagem do Formulário - Light Mode
-![Site de Inscrição](https://github.com/DouglasS-Silva/Desafio-3_Trilhas_FrontEnd/raw/main/Desafio_3/Ilustracoes/Login%20(Light%20Mode).png) && (https://github.com/DouglasS-Silva/Desafio-3_Trilhas_FrontEnd/raw/main/Desafio_3/Ilustracoes/Inscricao%20(Light%20Mode).png)
+
+### Imagens do Formulário - Light Mode
+![Página de Login](https://github.com/DouglasS-Silva/Desafio-3_Trilhas_FrontEnd/raw/main/Desafio_3/Ilustracoes/Login%20(Light%20Mode).png)
+
+![Página de Inscrição](https://github.com/DouglasS-Silva/Desafio-3_Trilhas_FrontEnd/raw/main/Desafio_3/Ilustracoes/Inscricao%20(Light%20Mode).png)
 
 Link do Site: https://desafio-3-trilhas-front-end.vercel.app/
 <hr>
