@@ -21,9 +21,12 @@ Link do figma: https://www.figma.com/design/X2iW0SlSZYY8LLix4TdCLg/Formul%C3%A1r
   <img src="https://github.com/DouglasS-Silva/Desafio-3_Trilhas_FrontEnd/raw/main/Desafio_3/Ilustracoes/Login%20(Light%20Mode).png" alt="Página de Login Light">
   <img src="https://github.com/DouglasS-Silva/Desafio-3_Trilhas_FrontEnd/raw/main/Desafio_3/Ilustracoes/Inscricao%20(Light%20Mode).png" alt="Página Inscrição Light">
 </div>
-![Página de Login]()
 
-![Página de Inscrição]()
+###Imagens do Formulário - Dark Mode
+<div align="center">
+  <img src="https://github.com/DouglasS-Silva/Desafio-3_Trilhas_FrontEnd/raw/main/Desafio_3/Ilustracoes/Login%20(Dark%20Mode).png" alt="Página de Login Light">
+  <img src="https://github.com/DouglasS-Silva/Desafio-3_Trilhas_FrontEnd/raw/main/Desafio_3/Ilustracoes/Inscricao%20(Dark%20Mode).png" alt="Página Inscrição Light">
+</div>
 
 Link do Site: https://desafio-3-trilhas-front-end.vercel.app/
 <hr>
